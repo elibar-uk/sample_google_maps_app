@@ -1,24 +1,8 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Installation
+-------
+* git clone git@github.com:elibar-uk/sample_google_maps_app.git
+* bundle
+* rake db:migrate
+* rails s (to run on a local host; visit http:/localhost:3000)
+![view 1](app/assets/images/mpas_view.png?raw=true)
